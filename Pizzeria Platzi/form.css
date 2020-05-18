@@ -1,0 +1,71 @@
+/* fonts */
+h1 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+h3 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* form */
+form div {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 5px 0;
+    padding: 5px 5px;
+    background-color: white;
+    border-radius: 5px;
+    animation-name: appear;
+    animation-duration: 2s;
+  
+}
+@keyframes appear {
+  from {
+    opacity: 0;
+
+  } to {
+    opacity: 1;
+  }
+
+}
+
+form .form-block input {
+  width: 30%;
+  height: 50%;
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid lightslategrey;
+  
+}
+
+label {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* img map location */
+.location {
+ text-align: center;
+}
+.location img {
+  width: 550px;
+  height: 400px;
+  padding-bottom: 1rem;
+}
+
+/*rodapé */
+.logo-footer {
+  width: 250px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+}
+

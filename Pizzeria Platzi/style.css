@@ -1,0 +1,89 @@
+body {
+    background-image: url("imagens/FUNDO.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+    padding-bottom: 250px;;
+    margin-top: 25px;
+    height: 80px;
+    }
+
+
+.subtitle{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+
+h1 {
+    color: darkcyan; 
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.button {
+width: 115px;
+height: 25px;
+background-color: darksalmon;
+padding: 10px;
+text-align: center;
+border-radius: 10px;
+color: black;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif
+}
+header {
+    margin-top: 25px;
+    height: 80px;
+    flex-wrap: wrap;
+}
+header > nav {
+    float: right;
+    margin-top: 1.5rem;
+}
+
+header > nav > a {
+    padding: 25px 10px;
+    text-decoration: none;
+    color: #000;
+}
+#nav-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+    font-weight: bold;
+}
+#first-section {
+    text-align: center;
+    
+    
+}
+
+section > figure {
+    float: left;
+    width: 100px;
+    height: 100px;
+    
+  
+}
+
+
+
+#container-row {
+    display: flex;
+    flex-direction: row: ; 
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    
+    
+}
+.grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+  }
+
+

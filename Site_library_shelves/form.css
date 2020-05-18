@@ -1,0 +1,121 @@
+/*body.hideScroll {
+    overflow: hidden;
+}
+*/
+
+/* form section */
+
+#modal {
+    background:#ffdb58;
+
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 130%;
+
+
+    display: flex;
+
+    justify-content: center;
+
+    transition: 400ms;
+
+}
+
+
+#modal-content {
+    margin-top:  30px;
+}
+
+#modal-content h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#modal  form {
+    width: 80%;
+    max-width: 800px;
+    margin:  0 auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+#modal-content form div:nth-child(3),
+#modal-content form div:nth-child(4),
+#modal-content form div:nth-child(5) {
+    grid-column: span 2;
+
+}
+#out {
+  float: right;
+  width: 32px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border:  1px solid rgba(141, 25, 52, 0.5);
+    font-size: 16px;
+    outline: none;
+
+}
+
+form label {
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing:  0.8px;
+}
+
+
+form button {
+    background: whitesmoke;
+    width: 150px;
+    height: 40px;
+    border-radius:  6px;
+    cursor: pointer;
+    margin-top: 32px;
+    grid-column: 2;
+    justify-self: end;
+}
+
+form button:hover {
+    background-color: turquoise;
+    color: white;
+    text-decoration: none;
+
+}
+
+form a {
+    width: 150px;
+    height: 40px;
+    background-color: #fffff2;
+    color: black;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+form a:hover {
+    text-decoration: none;
+
+    /*propriedades do flex*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*propriedades do grid */
+
+    align-self: end;
+}
+
+
+#modal.hide {
+    display: none;
+}

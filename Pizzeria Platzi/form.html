@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<!--css-->
+	<link rel="stylesheet" type="text/css" href="./form.css">
+	<link rel="stylesheet" type="text/css" href="./cardapio.css">
+
+</head>
+
+<body>
+	<!--header-->
+	<header class="header">
+		<img id="logo" src="./imagens/logo_preta.svg" />
+		<nav>
+			<a id="nav-text" href="./index.html"> Home </a>
+			<a id="nav-text" href="./cardapio.html"> Cardápio </a>
+			<a id="button" href="./form.html"> Peça online</a>
+		</nav>
+	</header>
+
+	<section>
+		<!--form-->
+		<form method="POST" id="cOrder" action="#">
+			<div class="form-block">
+
+				<h1>Pedido</h1>
+
+				<label for="Cpizza"> Escolha sua pizza </label>
+				<input type="text" name="tPizza" id="cPizza" placeholder="Pizza Uno, Duo ou Tre" required>
+
+				<label for="Cadress">Insira seu endereço</label>
+				<input type="text" name="tAdress" id="cAdress" placeholder="Endereço completo" required>
+
+				<label for="Ccomment">Adicionar comentário</label>
+				<input type="text" name="Tcomment" id="Ccomment" placeholder="Exemplo: retirar queijo">
+
+			</div>
+			<div>
+				<a id="button">Peça online</a>
+			</div>
+		</form>
+	</section>
+	<!--img map location -->
+	<section class="location">
+		<h3>Regiões de delivery</h3>
+		<img src="./imagens/mapa.png">
+	</section>
+
+	<!--footer-->
+	<footer>
+
+		<img class="logo-footer" src="./imagens/logo_preta.svg" />
+
+	</footer>
+</body>
+<html>

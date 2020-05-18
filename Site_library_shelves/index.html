@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./form.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,900&display=swap" rel="stylesheet">
+    <title>Books in Digital Shelves</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <main>
+            <a href="./index.html"><img id="logo" src="./images/SteveLambert-Library-Book-Cart.svg" alt="Library Book Cart"></a>
+
+            <p>
+                Welcome to the library shelves, a digital place where you can suggest reading options to the shelves and share your best readings! <br> Feel free to check it out. 
+            </p>
+
+            <section class="btns">
+
+                <button id="btnAdd" onclick="onOff()">Add books to the shelves</button> <!--onOff executa a funcionalidade de reaparecer o form ao ser clicado-->
+
+                <button id="btnView"><a href="./ideas.html">See the books</a></button>
+
+            </section>
+            <footer> 💻Made with ☕ & HTML, CSS e JavaScript. 💻</footer>
+        </main>
+
+        <!-- section of the registered ideas -->
+
+        <section id="shelving">
+
+            <div class="shelves">
+                <img src="./images/1407941568.png" alt="alighned books">
+
+                <div class="content">
+                    <h3>Romance</h3>
+                    <p>Classics</p>
+                    <div class="description">
+                        Shelves with books about love and sometimes war.
+                    </div>
+                    <a href="#">Go to shelve</a>
+                </div>
+            </div>
+
+            <div class="shelves">
+                <img src="https://image.flaticon.com/icons/svg/2728/2728997.svg" alt="">
+                <div class="content">
+                    <h3>Writing</h3>
+                    <p>Languages</p>
+                    <div class="description">
+                        Shelves with subjects about writting and essays methods.
+                    </div>
+                    <a href="#">Go to shelve</a>
+                </div>
+            </div>
+
+            <div class="shelves">
+
+                <img src="https://image.flaticon.com/icons/svg/2729/2729030.svg" alt="">
+                <div class=" content">
+                    <h3>Productivity at work</h3>
+                    <p>Productivity</p>
+                    <div class="description">
+                        Shelves with subjects of productivity.
+                    </div>
+                    <a href="#">Go to shelve</a>
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <!-- Modal/ Popup do formulário -->
+
+    <section id="modal" class="hide">
+        <div id="modal-content">
+
+           <a href="#" onclick="onOff()"><img id="out" src="https://img.icons8.com/color/100/000000/x.png"/></a>
+           <h1>New entry</h1>
+
+           <form action="">
+
+            <div class="input-wrapper">
+                <label for="title">Title</label>
+                <input type="text" name="title">
+            </div>
+
+            <div class="input-wrapper">
+                <label for="category">Subject</label>
+                <input type="text" name="category">
+            </div>
+
+            <div class="input-wrapper">
+                <label for="image">Image URL</label>
+                <input type="url" name="image">
+            </div>
+
+            <div class="input-wrapper">
+                <label for="description">Describe the subject</label>
+                <textarea name="description" id="" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="input-wrapper">
+                <label for="link">Subject URL</label>
+                <input type="url" name="link">
+            </div>
+
+
+            <button>Send</button>
+
+        </form>
+
+    </div>
+</div>
+</section>
+
+<script src="./script.js"></script>
+</body>
+
+</html>

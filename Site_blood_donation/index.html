@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap" rel="stylesheet">
+    <title>Doação de sangue</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="https://image.flaticon.com/icons/svg/2449/2449850.svg"/>
+        <h2> Blood donation. <br>
+        <p> Your donation is essential, whenever you can give it.</p>
+        <button class="headerButton"> Donate</button>
+
+    </header>
+
+    <section id="form" class="hide">
+        <h2>Blood Donation</h2>
+
+        <form action="/" method="POST">
+            <input type="text" name="name" placeholder="Full name">
+            <input type="text" name="email" placeholder="E-mail">
+            <input type="text" name="blood" placeholder="Tipo sanguíneo">
+            <button> Book now for later</button>
+        </form>
+
+
+    </section>
+    <main>
+        <section>
+            <h2>Last <span>donors</span></h2>
+            <section class="donors">
+
+                <div class="bloodtype"> A</div>
+                <p class="donor">Name </p>
+
+                <div class="bloodtype"> B</div>
+                <p class="donor">Name </p>
+
+                <div class="bloodtype"> O</div>
+                <p class="donor">Name</p>
+
+                <div class="bloodtype"> AB</div>
+                <p class="donor"> Name</p>
+
+
+            </section>
+    </main>
+    <footer>
+        <p>💻</p>
+    </footer>
+<script src="./script.js"></script>
+</body>
+
+</html>

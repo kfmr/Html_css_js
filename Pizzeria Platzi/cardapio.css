@@ -1,0 +1,128 @@
+
+body {
+    margin: 0;
+    background-color: #f9f9f9
+    }
+
+/*text */
+main h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* nav */
+header {
+    background-color: #A68064;
+}
+
+header > nav {
+    float: right;
+    margin-top: 1.5rem;
+}
+
+header > nav > a {
+    padding: 25px 10px;
+    text-decoration: none;
+    color: #000;
+}
+#nav-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+    font-weight: bold;
+}
+
+#button {
+    width: 115px;
+    height: 25px;
+    background-color: darksalmon;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+    }
+
+figure a {
+        text-decoration: none;
+    }
+
+#logo {
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 2rem;
+}
+/* grid menu */
+#cardapio {
+    display: grid;
+    flex-wrap: wrap;
+    width: 60%;;
+    margin: auto;
+    text-align: left ;
+    grid-gap: 2rem;
+    
+    }
+
+
+
+.sabor-1-1{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.sabor-1-2 {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.sabor-2-1 {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.sabor-2-2 {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.sabor-3-1{
+    grid-row: 3;
+    grid-row: 3;
+}
+
+section figure {
+    float: left;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+}
+/* rodapé */
+
+footer {
+    margin-top: auto;
+    background-color: #A68064;
+    width: 100%;
+    float: left;
+    padding: 20px; 8%;
+
+}
+
+.logo-footer {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}

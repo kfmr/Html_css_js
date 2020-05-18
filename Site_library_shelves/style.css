@@ -1,0 +1,146 @@
+body {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    background-color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+body.hideScroll {
+    overflow: hidden;
+}
+
+/* container/main section */
+
+main {
+    
+    width: 300px;
+    margin: 32px 0;
+
+}
+
+p, .description {
+    font-size: 16px;
+    line-height: 24px; 
+    letter-spacing: 0.1px;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    font-weight: bold;
+    font-size: 14px; 
+    line-height: 18px;
+    letter-spacing: 0.2px;
+
+    color: #25282b;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 32px;
+    
+
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+.btns {
+    display:flex;
+    justify-content: space-between;
+    color: #ff5e84;
+
+}
+
+#btnAdd{
+    border-radius: 6px;
+    width:  130px;
+    height: 40px;
+    background: #ffdb58;
+}
+
+#btnView  {
+    background: #ffff52;
+    width:  130px;
+    height: 40px;
+    border-radius: 6px;
+    box-shadow: 0px 8px 16px rgb(255, 0, 92, 0.16);
+}
+
+#logo {
+    margin-top: -25px;
+    width: 240px;
+    
+    
+}
+
+.container {
+    width: 90%;
+    max-width: 980px;
+    display: flex;
+    margin: 40px auto;
+   
+}
+
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+
+
+    
+
+}
+
+
+
+
+.shelves {
+    display: flex;
+    margin-left: 70px; 
+    margin-bottom: 32px;
+    background-color: #ffdb58;
+    box-shadow: 0 4px 16px -8px, rgba(1, 1, 1, 0.1);
+    border-radius: 8px;
+    padding: 30px;
+}
+
+
+.shelves img {
+    width: 60px;
+    height: 60px;
+    margin-right: 32px;
+}
+
+
+.shelves h3 {
+    margin: 0;
+}
+
+
+.shelves p {
+margin: 8px 0;
+color: #363636;
+}
+
+
+.shelves a {
+color: #6A5ACD;
+text-decoration: none;  
+font-weight: bold;
+}
+
+
+.shelves description {
+    margin: 16px 0;
+
+}
+
